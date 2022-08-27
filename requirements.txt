@@ -1,5 +1,6 @@
 Django
+djangorestframework
+drf-yasg
+djangorestframework-simplejwt
 psycopg2
 redis
-djangorestframework-jwt
-django-rest-swagger
