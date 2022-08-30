@@ -1,6 +1,7 @@
 Django
 djangorestframework
-drf-yasg
 djangorestframework-simplejwt
+drf-spectacular
+drf-spectacular-sidecar
 psycopg2
 redis

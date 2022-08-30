@@ -1,7 +1,10 @@
-from django.urls import path
+from django.urls import path, include
+from rest_framework import routers
 from . import views
 
+router = routers.DefaultRouter()
+router.register(r'region-viewset', views.RegionsViewSet)
+
 urlpatterns = [
-    path('', views.RegionsCollection.as_view()),
-    path('', views.RegionsDetail.as_view()),
+    path('', include(router.urls))
 ]
